@@ -16,9 +16,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return RepositoryProvider(
       create: (context) => UserRepository(),
-      child: MaterialApp(
+      child: const MaterialApp(
         title: 'Flutter Demo',
-        home: const MyHomePage(),
+        home:  MyHomePage(),
       ),
     );
   }
